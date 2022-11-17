@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="x-icon" href="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central University College  |  Home Page</title>
+
+    <!-- BoxIcon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="head">
+        <nav class = "navbar">
+           <div class = "logo">
+             <a id="index">
+                <img src= 'images/logo2..png'>
+             </a>
+           </div>
+           <div class = "search">
+             <div class = "searchcontainer" >
+               <input placeholder='Search'></input><i class='bx bx-search'></i>
+             </div>
+           </div>
+           <div class = "menu">
+             <div class = "menucontainer">
+                 <ul>
+                   <li><a href="index.html" >Home</a></li>
+                   <li><a href="" >Gallery</a></li>
+                   <li><a href="" >Alumni</a><i class="bx bx-caret-down"></i></li>
+                   <li><a href="" >Corporate</a></li>
+                   <li><a href="" >CU Maps</a></li>
+                 </ul>
+             </div>
+           </div>
+           <div class = "btn">
+             <i class="bx bx-menu" onclick="menuOpen()"></i>
+           </div>
+         </nav>
+     
+         <section class = "Hero">
+
+          <div class="slideshow-container">
+            <!-- Slide One -->
+            <div class="mySlides fade">
+              <div class="img"><img src="images/CU_Prospectus.jpg" alt=""></div>
+              <div class="text">
+                <h2>Slide 3</h2>
+                <p>Events in the slide show;
+                  This is about the event and what happened, <br> more words can be added and end with ... </p>
+                  <span><a href="Read More">Read More</a></span>
+                </div>
+              </div>
+
+              <!-- Slide Two -->
+              <div class="mySlides fade">
+                <div class="img"><img src="images/CU_Prospectus.jpg" alt=""></div>
+                <div class="text">
+                  <h2>Slide 1</h2>
+                  <p>Events in the slide show;
+                    This is about the event and what happened, <br> more words can be added and end with ... </p>
+                    <span><a href="Read More">Read More</a></span>
+                  </div>
+                </div>
+               
+               <!-- Slide Three -->
+              <div class="mySlides fade">
+                 <div class="img"><img src="images/CU_Prospectus.jpg" alt=""></div>
+                 <div class="text">
+                   <h2>Slide 2</h2>
+                   <p>Events in the slide show;
+                     This is about the event and what happened, <br> more words can be added and end with ... </p>
+                     <span><a href="Read More">Read More</a></span>
+                 </div>
+               </div>
+
+          </div>
+         
+            <div class="bottom">
+               <div class="controls">
+                 <a class="prev" onclick="plusSlides(-1)"><i class="bx bxs-chevron-left"></i></a>
+                 <a class="next" onclick="plusSlides(1)"><i class="bx bxs-chevron-right"></i></a>
+               </div>
+               <div class="dotsd" style="text-align:center">
+                 <span class="dot" onclick="currentSlide(1)"></span>
+                 <span class="dot" onclick="currentSlide(2)"></span>
+                 <span class="dot" onclick="currentSlide(3)"></span>
+               </div>
+            </div>
+         </section>
+
+
+         <div class="Menu" id="Menu" >
+           <div class="closeBtn">
+             <span onclick="closeBtn()"><i class="bx bx-plus"></i></span>
+           </div>
+           <div class= "MenuContainerr">
+               <div class="menutitle">
+                 <h1>Navigate CU</h1>
+               </div>
+               <div class="menunavigations">
+                 <div class="ul">
+                 <ul id="above">
+                   <ul>
+                     <li><a id= "about">About CU</a></li>
+                     <li><div id="line"></div></li>
+                     <li><a>University Council</a></li>
+                     <li><a>Offices of the Authorities</a></li>
+                     <li><a>Job Vacancies</a></li>
+                     <li><a>Vision, Mission & Core Values</a></li>
+                     <li><a>Contact Us</a></li>
+                     <li><a>More <i class="bx bx-caret-right"></i></a></li>
+                   </ul>
+                   <ul>
+                     <li><a id= "about">Schools</a></li>
+                     <li><div id="line"></div></li>
+                     <li><a>Undergraduate</a></li>
+                     <li><a>Graduate</a></li>
+                     <li><a>Student Support</a></li>
+                     <li><a>William O-A Institue of Integrity </a></li>
+                     <li><a>More <i class="bx bx-caret-right"></i></a></li>
+                   </ul>
+                   <ul>
+                     <li><a id= "about">International</a></li>
+                     <li><div id="line"></div></li>
+                     <li><a>Fees</a></li>
+                     <li><a>Student Life</a></li>
+                     <li><a>Partnership</a></li>
+                     <li><a>Your Country</a></li>
+                     <li><a>More <i class="bx bx-caret-right"></i></a></li>
+                   </ul>
+                   <ul>
+                     <li><a id= "about">Admissions</a></li>
+                     <li><div id="line"></div></li>
+                     <li><a>How to Apply</a></li>
+                     <li><a>International info and Scholarship</a></li>
+                     <li><a>Admission Forms 2022/2023</a></li>
+                     <li><a>Campus Life</a></li>
+                     <li><a>More <i class="bx bx-caret-right"></i></a></li>
+                   </ul>
+                 </ul>
+                 <ul id="bottom">
+                   <ul>
+                     <li><a id= "about">Chaplaincy</a></li>
+                     <li><div id="line"></div></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>More <i class="bx bx-caret-right"></i></a></li>
+                   </ul>
+                   <ul>
+                     <li><a id= "about">Research</a></li>
+                     <li><div id="line"></div></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>More <i class="bx bx-caret-right"></i></a></li>
+                   </ul>
+                   <ul>
+                     <li><a id= "about">Publications</a></li>
+                     <li><div id="line"></div></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>More <i class="bx bx-caret-right"></i></a></li>
+                   </ul>
+                   <ul>
+                     <li><a id= "about">Library</a></li>
+                     <li><div id="line"></div></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>Navigations</a></li>
+                     <li><a>More <i class="bx bx-caret-right"></i></a></li>
+                   </ul>
+                 </ul>
+                 </div>
+               </div>
+               <div class="underbar">
+                  <div class="underbarContainer">
+                     <div class="pic">
+                       <img src='images/logo.png'>
+                       <p>Central Univeristy Student and Visitors Information Panel.</p>
+                     </div>
+                     <div class="link">
+                       <a href="">Explore More</a>
+                     </div>
+                  </div>
+               </div>
+           </div>
+           <div class="liness"></div>
+                 <div class="event">
+                   <div class="eventContainer">
+                     <div class="card">
+                     <span>A Very Important Information or Event</span>
+                     </div>
+                     <div class="sub">
+                       <div class="lines"></div>
+                       <span>Central University College</span>
+                     </div>
+                   </div>
+                 </div>
+         </div>
+        </div>
+     
+         <section class= "dreams">
+            <div class="happening">
+              <div class="happn span"></div>
+              <div class="also"></div>
+              <div class="in"></div>
+            </div>
+         </section>
+         <section class="newsLetter">
+         <div class="body">
+             <div class="containerrr">
+                 <div class="headd">
+                     <h1>CU NewsRoom</h1>
+                 </div>
+                 <div class="newsletter">
+                    
+                     <div class="news" id="two">
+                         <div class="pics"><img src="images\cheerful-african-american-guy-graduation-costume-cheerful-african-american-guy-graduation-costume-showing-his-diploma-215746359.jpg" alt=""></div>
+                         <div class="words">
+                             <h4 id="head">News Title</h4>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                             </p>
+                             <a href="#">Read More</a>
+                             <div class="carousel">
+                                 <div class="page">
+                                 </div>
+                                 <span id="date">10.Nov.2022</span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="news" id="two">
+                        <div class="pics"><img src="images/CU_Prospectus.jpg" alt=""></div>
+                          <div class="words">
+                             <h4>News Title</h4>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                             </p>
+                             <a href="#">Read More</a>
+                             <div class="carousel">
+                                 <div class="page">
+                                 </div>
+                                 <span id="date">10.Nov.2022</span>
+                             </div>
+                         </div>
+                     </div>
+                     
+                     <div class="news" id="two">
+                         <div class="pics"><img src="images/CU_Prospectus.jpg" alt=""/></div>
+                         <div class="words">
+                             <h4>News Title</h4>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                             </p>
+                             <a href="#">Read More</a>
+                             <div class="carousel">
+                                 <div class="page">
+                                 </div>
+                                 <span id="date">10.Nov.2022</span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="news" id="two">
+                         <div class="pics"><img src="images/cheerful-african-american-guy-graduation-costume-cheerful-african-american-guy-graduation-costume-showing-his-diploma-215746359.jpg" alt=""/></div>
+                         <div class="words">
+                             <h4>News Title</h4>
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                             </p>
+                             <a href="#">Read More</a>
+                             <div class="carousel">
+                                 <div class="page">
+                                 </div>
+                                 <span id="date">10.Nov.2022</span>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="subscribe">
+                     <div class="contain">
+                         <input type="email" placeholder="Join our Newsletter"/>
+                         <button><i class='bx bxs-send'></i></button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         </section>
+
+         <section class="tp">
+          <div class="top-links">
+            <div class="top-container">
+              <h4>Top Links</h4>
+              <ul>
+                <li><a href="apply.html">Admissions</a></li>
+                <li><a href="">Central Pay</a></li>
+                <li><a href="">Student Portal</a></li>
+                <li><a href="">International Students</a></li>
+                <li><a href="">Programmes</a></li>
+                <li><a href="">Eligibilty Checker</a></li>
+              </ul>
+            </div>
+            <div class="apply"><a href="apply.html">Apply Now</a></div>
+          </div>
+         </section>
+
+         <footer>
+             <div class="school">
+                  <div class="school-container">
+                    <div class="p">
+                      <div class="pContainer">
+                        <a href="#index"><img src="images/logo.png"></a>
+                        <div class="lin"></div>
+                        <h2>Central University <br> College</h2>
+                      </div>
+                      <div class="social">
+                        <ul>
+                          <li><a href=""><i class="bx bxl-instagram"></i></a></li>
+                          <li><a href=""><i class="bx bxl-whatsapp"></i></a></li>
+                          <li><a href=""><i class="bx bxl-youtube"></i></a></li>
+                          <li><a href=""><i class="bx bxl-linkedin"></i></a></li>
+                          <li><a href=""><i class="bx bxl-facebook"></i></a></li>
+                        </ul>
+                      </div>
+                      <div class="location">
+                        <span>Central University, Miotso near Dawhenya. <br>
+                          Off the Accra - Aflao Road.</span>
+                      </div>
+                   </div>
+
+                   <div class="navigations">
+                    <ul>
+                      <li><span>Campus</span></li>
+                      <li><div class="linee"></div></li>
+                      <li><a href="campuslife.html">Visit</a></li>
+                      <li><a href="">CU Map</a></li>
+                      <li><a href="apply.html">Apply Now</a></li>
+                      <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                    <ul>
+                      <li><span>CU - Talk to us</span></li>
+                      <li><div class="linee"></div></li>
+                      <li><a href="">Career</a></li>
+                      <li><a href="">Contact</a></li>
+                      <li><a href="">Accesibility</a></li>
+                      <li><a href="">Faculty</a></li>
+                    </ul>
+                   </div>
+                  </div>
+             </div>
+             <div class="foot">
+              <ul>
+                <li><span>&copy; Copyright All rights reserved. Central University College 2022.</span></li>
+                <li><span>Designed by <a href="">US.</a></span></li>
+              </ul>
+             </div>
+         </footer>
+        </div>
+        <script src="js/script.js"></script>
+        <script src="js/admin.js"></script>
+
+        
+</body>
+
+</html>
