@@ -613,13 +613,6 @@ img {
   }
   
   
-  .dreams{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   
   .section{
     height: 60vh;
@@ -690,7 +683,7 @@ img {
   }
   
   /* newsletter */
-
+  
   .newsLetter{
     height: 150vh;
   }
@@ -724,7 +717,7 @@ img {
     width: 35rem;
     height: 100%;
   }
-
+  
   .pics img{
     width: 100%;
     height: 100%;
@@ -735,7 +728,7 @@ img {
     padding: 10px 20px;
     width: 100vh;
   }
-
+  
   .words p{
     font-size: 0.7rem;
   }
@@ -808,9 +801,9 @@ img {
     text-align: right;
     font-size: 0.8rem;
   }
-
+  
   /* Footer */
-
+  
   footer{
     height: 70vh;
     width: 100%;
@@ -818,7 +811,7 @@ img {
     background-color: #992621;
     padding: 20px 20px;
   }
-
+  
   .school{
     width: 100%;
     display: flex;
@@ -839,7 +832,7 @@ img {
     flex-direction: column;
     justify-content: space-evenly;
   }
-
+  
   .pContainer, .social, .location{
     margin: 15px 10px;
   }
@@ -858,7 +851,7 @@ img {
     width: 90px;
     height: 110px;
   }
-
+  
   .lin{
     height: 80%;
     width: 2px;
@@ -900,34 +893,34 @@ img {
     }
     
     
-  .location  span{
-    color: white;
-  }
-  
+    .location  span{
+      color: white;
+    }
+    
+    
+    .navigations{
+      width: 40%;
+      display: flex;
+      padding: 20px 0;
+      justify-content: space-between;
+    }
 
-  .navigations{
-    width: 40%;
-    display: flex;
-    padding: 20px 0;
-    justify-content: space-between;
-  }
-
-  .navigations ul li{
-    margin-bottom: 14px;
-  }
-
-  .navigations ul li span{
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-  
+    .navigations ul li{
+      margin-bottom: 14px;
+    }
+    
+    .navigations ul li span{
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    
   .navigations ul li a{
     color: white;
     font-size: 1rem;
     font-weight: 200;
   }
-
+  
   .linee{
     width: 100%;
     height: 2px;
@@ -942,7 +935,7 @@ img {
     justify-content: center;
     align-items: center;
   }
-
+  
   .foot ul{
     width: 90%;
     display: flex;
@@ -961,9 +954,9 @@ img {
     font-weight: 200;
   }
   
-
+  
   /* Top Links */
-
+  
   .tp{
     height: 50vh;
     width: 100%;
@@ -973,7 +966,7 @@ img {
     align-items: center;
     margin-top: 20px;
   }
-
+  
   .top-links{
     width: 100%;
     display: flex;
@@ -981,12 +974,12 @@ img {
     justify-content: center;
     align-items: center;
   }
-
+  
   .top-container{
-      width: 80%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .top-container h4{
@@ -1000,12 +993,12 @@ img {
     display: flex;
     flex-wrap: wrap;
   }
-
+  
   .top-container ul li{
     margin-right: 20px;
     /* width: 100%; */
   }
-
+  
   .top-container ul li a{
     padding: 10px 15px;
     background-color: black;
@@ -1013,7 +1006,7 @@ img {
     color: white;
   }
   
-
+  
   .apply{
     height: 50vh;
     width: 90%;
@@ -1023,7 +1016,7 @@ img {
     /* background-color: green; */
     margin-bottom: 20px;
   }
-
+  
   .apply a{
     position: relative;
     top: 50px;
@@ -1042,27 +1035,27 @@ img {
     transition: 0.4s all ease;
   }
 
-
+  
   .apply a:hover{
-     background-color: #992621;
+    background-color: #992621;
   }
+  
+  
+  
+  
+  
 
-
-
-
-
-
-
-
-
-
+  
+  
+  
+  
   /* Apply */
-
+  
   .apply-now{
     height: 60vh;
     width: 100%;
   }
-
+  
   .apply-container{
     width: 100%;
     height: 100%;
@@ -1071,12 +1064,12 @@ img {
     /* align-items: center; */
     background-color: #711818;
   }
-
+  
   .applyy, .ap-pic{
     height: 100%;
     width: 40%;
   }
-
+  
   .applyy{
     background-color: #711818;
     display: flex;
@@ -1086,19 +1079,19 @@ img {
     /* padding: 0 70px; */
   }
 
-
+  
   .ap-pic{
     background-color: grey;
     height: 100%;
   }
-
+  
   .ap-pic img{
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-
+  
   .applyy h1{
     width: 80%;
     font-size: 4rem;
@@ -1111,13 +1104,13 @@ img {
     color: white;
   }
 
-
-
-/* Admissions */
-
-.admission{
-  width: 100%;
-  height: 90vh;
+  
+  
+  /* Admissions */
+  
+  .admission{
+    width: 100%;
+    height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1228,13 +1221,75 @@ img {
 
 .fat p{
   margin-top: -90px;
-
+  
 }
 
 .campuses{
   
 }
 
+.dreams{
+  width: 100%;
+  /* height: 100vh; */
+  margin-top: 80vh;
+  margin-bottom: -60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Happ */
+
+.happening{
+  width: 100%;
+  /* height: 170vh; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: auto;
+}
+
+
+.happn, .in, .also{
+   padding: 170px 100px;
+}
+
+.happn{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(http://45.222.128.223/wp-content/uploads/2022/11/WhatsApp-Image-2022-10-14-at-12.24.23-PM.jpeg);
+  /* border-right: ; */
+}
+
+.in{
+  background-color: #992621;
+}
+
+.also{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(http://45.222.128.223/wp-content/uploads/2022/08/292A0510-1536x1024.jpg);
+  /* background-color: #BD322C; */
+}
+
+.span{
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+    /* margin-right: 20px; */
+    /* margin-left: -9.7rem; */
+}
+
+.happn span, .in span, .also span{
+  position: absolute;
+  z-index: 2;
+  /* bottom: 0; */
+  /* left: 0; */
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.334);
+  backdrop-filter: blur(20px);
+}
 
 
   /* Responsiveness */
@@ -1300,8 +1355,10 @@ img {
       width: 10px;
     }
     }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 550px) {
       .prev, .next,.text {font-size: 14px}
+
+       
     }
     
     
