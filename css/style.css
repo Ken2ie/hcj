@@ -613,13 +613,6 @@ img {
   }
   
   
-  .dreams{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   
   .section{
     height: 60vh;
@@ -685,12 +678,16 @@ img {
     margin: 30px 0;
   }
   .headd h1{
+    /* width: 80%; */
     font-size: 4rem;
     font-weight: 700;
+    background-color: white;
+  color: black;
+  /* padding: 10px 30px; */
   }
   
   /* newsletter */
-
+  
   .newsLetter{
     height: 150vh;
   }
@@ -724,20 +721,21 @@ img {
     width: 35rem;
     height: 100%;
   }
-
+  
   .pics img{
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
   
-  .words{
+  .wordss{
     padding: 10px 20px;
     width: 100vh;
   }
-
-  .words p{
+  
+  .wordss p{
     font-size: 0.7rem;
+    padding: 0;
   }
   
   /* Subscription */
@@ -787,7 +785,7 @@ img {
     font-size: 2rem;
   }
   
-  .words a{
+  .wordss a{
     text-decoration: none;
     color: white;
     font-size: 0.8rem;
@@ -808,9 +806,9 @@ img {
     text-align: right;
     font-size: 0.8rem;
   }
-
+  
   /* Footer */
-
+  
   footer{
     height: 70vh;
     width: 100%;
@@ -818,7 +816,7 @@ img {
     background-color: #992621;
     padding: 20px 20px;
   }
-
+  
   .school{
     width: 100%;
     display: flex;
@@ -839,7 +837,7 @@ img {
     flex-direction: column;
     justify-content: space-evenly;
   }
-
+  
   .pContainer, .social, .location{
     margin: 15px 10px;
   }
@@ -858,7 +856,7 @@ img {
     width: 90px;
     height: 110px;
   }
-
+  
   .lin{
     height: 80%;
     width: 2px;
@@ -900,34 +898,34 @@ img {
     }
     
     
-  .location  span{
-    color: white;
-  }
-  
+    .location  span{
+      color: white;
+    }
+    
+    
+    .navigations{
+      width: 40%;
+      display: flex;
+      padding: 20px 0;
+      justify-content: space-between;
+    }
 
-  .navigations{
-    width: 40%;
-    display: flex;
-    padding: 20px 0;
-    justify-content: space-between;
-  }
-
-  .navigations ul li{
-    margin-bottom: 14px;
-  }
-
-  .navigations ul li span{
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-  
+    .navigations ul li{
+      margin-bottom: 14px;
+    }
+    
+    .navigations ul li span{
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    
   .navigations ul li a{
     color: white;
     font-size: 1rem;
     font-weight: 200;
   }
-
+  
   .linee{
     width: 100%;
     height: 2px;
@@ -942,7 +940,7 @@ img {
     justify-content: center;
     align-items: center;
   }
-
+  
   .foot ul{
     width: 90%;
     display: flex;
@@ -961,9 +959,9 @@ img {
     font-weight: 200;
   }
   
-
+  
   /* Top Links */
-
+  
   .tp{
     height: 50vh;
     width: 100%;
@@ -973,7 +971,7 @@ img {
     align-items: center;
     margin-top: 20px;
   }
-
+  
   .top-links{
     width: 100%;
     display: flex;
@@ -981,12 +979,12 @@ img {
     justify-content: center;
     align-items: center;
   }
-
+  
   .top-container{
-      width: 80%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .top-container h4{
@@ -1000,12 +998,12 @@ img {
     display: flex;
     flex-wrap: wrap;
   }
-
+  
   .top-container ul li{
     margin-right: 20px;
     /* width: 100%; */
   }
-
+  
   .top-container ul li a{
     padding: 10px 15px;
     background-color: black;
@@ -1013,7 +1011,7 @@ img {
     color: white;
   }
   
-
+  
   .apply{
     height: 50vh;
     width: 90%;
@@ -1023,7 +1021,7 @@ img {
     /* background-color: green; */
     margin-bottom: 20px;
   }
-
+  
   .apply a{
     position: relative;
     top: 50px;
@@ -1042,27 +1040,27 @@ img {
     transition: 0.4s all ease;
   }
 
-
+  
   .apply a:hover{
-     background-color: #992621;
+    background-color: #992621;
   }
+  
+  
+  
+  
+  
 
-
-
-
-
-
-
-
-
-
+  
+  
+  
+  
   /* Apply */
-
+  
   .apply-now{
     height: 60vh;
     width: 100%;
   }
-
+  
   .apply-container{
     width: 100%;
     height: 100%;
@@ -1071,12 +1069,12 @@ img {
     /* align-items: center; */
     background-color: #711818;
   }
-
+  
   .applyy, .ap-pic{
     height: 100%;
     width: 40%;
   }
-
+  
   .applyy{
     background-color: #711818;
     display: flex;
@@ -1086,19 +1084,19 @@ img {
     /* padding: 0 70px; */
   }
 
-
+  
   .ap-pic{
     background-color: grey;
     height: 100%;
   }
-
+  
   .ap-pic img{
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-
+  
   .applyy h1{
     width: 80%;
     font-size: 4rem;
@@ -1109,15 +1107,17 @@ img {
     width: 80%;
     font-size: 1.5rem;
     color: white;
+    padding: 0;
+    margin: 0;
   }
 
-
-
-/* Admissions */
-
-.admission{
-  width: 100%;
-  height: 90vh;
+  
+  
+  /* Admissions */
+  
+  .admission{
+    width: 100%;
+    height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1159,11 +1159,21 @@ img {
 
 .Admissions p{
   color: black;
+  padding: 0;
 }
 
 .Admissions a{
   color: #992621;
   text-decoration: underline;
+}
+
+/* Menu */
+.pic p{
+  color: black;
+}
+
+.img img{
+  object-fit: cover;
 }
 
 /* Facts */
@@ -1204,12 +1214,18 @@ img {
 
 .figOne{
   padding: 20px;
+  width: 100%;
   border-left: 10px solid #fff;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .figOne h1, p{
   color: white;
+  text-align: left;
+  width: 100%;
 }
 
 .figOne h1{
@@ -1228,12 +1244,293 @@ img {
 
 .fat p{
   margin-top: -90px;
-
-}
-
-.campuses{
   
 }
+
+.check-out{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0;
+}
+
+.checkk{
+  width: 70%;
+  height: 45vh;
+  text-align: right;
+  background-color: black;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 40px; */
+}
+
+.word{
+  margin: 0 30px;
+}
+
+.checkk h1{
+  color: white;
+  font-size: 4rem;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.checkk span{
+  color: white;
+}
+
+.flow{
+  height: 45vh;
+  width: 20vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s all ease;
+}
+
+.flow:hover{
+   background-color: #992621;
+}
+
+.flow a{
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 40px;
+}
+
+.flow a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flow a i{
+  color: white;
+  font-size: 2rem;
+}
+
+.dreams{
+  width: 100%;
+  /* height: 100vh; */
+  margin-top: 80vh;
+  margin-bottom: -60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hea{
+  width: 80%;
+  font-size: 4rem;
+  margin: 20px 0;
+  /* text-align: left; */
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+}
+
+.dreams a{
+  width: 100%;
+  text-align: right;
+}
+
+.dreams i{
+  /* width: 100%; */
+  text-align: right;
+}
+
+
+
+.bx-chevron-right{
+  color: #ffffff;
+  font-size: 3rem;
+  background-color: #992621;
+  border-radius: 50px;
+  margin-left: 20px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.182); */
+}
+
+/* Happ */
+
+.happening{
+  width: 100%;
+  /* height: 170vh; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: auto;
+}
+
+
+.happn, .in, .also{
+   padding: 0.1px;
+   /* width: 20vh; */
+   height: 40vh;
+}
+
+.happn{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/WhatsApp-Image-2022-10-14-at-12.24.23-PM.jpeg);
+  /* border-right: ; */
+  height: 100%;
+}
+
+.in{
+  /* background-color: #992621; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/DSC_0556-1536x1024.jpg);
+  /* background-color: #BD322C; */
+}
+
+.also{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/CHAPLAINCY-1.jpg);
+  /* background-color: #BD322C; */
+}
+
+.span{
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+    /* margin-right: 20px; */
+    /* margin-left: -9.7rem; */
+}
+
+
+
+.happn .spa{
+  position: relative;
+  bottom: -63%;
+  width: 100%;
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.277);
+  backdrop-filter: blur(20px);  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spa h1, p{
+  width: 100%;
+  color: white;
+  /* background-color: black; */
+  padding: 0 40px;
+}
+
+.also .spa, .in .spa{
+  position: relative;
+  bottom: -63%;
+  width: 100%;
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.277);
+  backdrop-filter: blur(20px);  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mp{
+  height: 45vh;
+  width: 45%;
+  /* background-image: url(../images/CU-Block2.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-left: -170px; */
+}
+
+.mp img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text p{
+  padding: 0;
+}
+
+
+.campus{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.campus-container{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ps{
+  /* background-color: #992621; */
+  height: 100%;
+  width: 80%;
+}
+
+.pi{
+  width: 100%;
+  height: 70vh;
+  background-image: url("../images/CU-Block2.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.name{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.camp-loca{
+   width: auto;
+   margin-left: 40px;
+}
+.c-nam{
+  position: relative;
+  width: auto;
+  padding: 20px;
+}
+
+.c-nam h1{
+  color: black;
+  padding: 5px;
+  border: 5px solid #992621;
+}
+.c-nam p{
+ color: black;
+ padding: 0;
+}
+
+.top:hover ~ .ps {
+  background-image: url("../images/CU_Prospectus.jpg");
+}
+.middle{
+  z-index: 2;
+}
+.back{
+  z-index: 3;
+}
+.backk{
+  z-index: 4;
+}
+
+
 
 
 
@@ -1300,8 +1597,175 @@ img {
       width: 10px;
     }
     }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 1040px) {
       .prev, .next,.text {font-size: 14px}
+
+       /* Nav */
+       .menu, .search{
+        display: none;
+       }
+
+       .navbar{
+        background-color: black;
+        justify-content: space-between;
+       }
+
+       .mySlides .text h2{
+        font-size: 2rem;
+       }
+       .mySlides .text p{
+        font-size: 1rem;
+        padding: 0;
+       }
+
+       .img img{
+        object-fit: cover;
+       }
+
+       .text span a{
+        padding: 2px 5px;
+       }
+
+       /* Menu */
+
+       .Menu{
+        opacity: 0;
+        display: none;
+        height: 100%;
+        transition: 0.4s all ease;
+       }
+
+       .active{
+        opacity: 1;
+        display: flex;
+       }
+
+       .MenuContainerr{
+        display: flex;
+        flex-direction: column;
+       }
+
+       .ul{
+        display: flex;
+        flex-direction: column;
+       }
+
+       /* Tp */
+
+       .tp{
+        margin-top: 40vh;
+       }
+
+       .top-container ul li{
+          margin-bottom: 20px;
+       }
+
+       .apply{
+        margin-top: -20vh;
+       }
+
+       .apply a{
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+
+       /* Footer */
+
+       footer, .school{
+        height: auto;
+       }
+
+       .school-container{
+        height: 200vh;
+       }
+
+       .school-container{
+        display: flex;
+        flex-direction: column;
+       }
+
+       .pContainer{
+        width: 100%;
+       }
+
+       .pContainer h2{
+        font-size: 1.2rem;
+       }
+
+       .navigations{
+        width: 100%;
+        margin: 40px 0;
+        flex-direction: column;
+       }
+
+
+
+       .navigations ul  li span{
+        font-size: 1rem;
+       }
+
+       .navigations ul li a{
+        font-size: 0.7rem;
+       }
+
+       .happening{
+        display: flex;
+        flex-direction: column;
+       }
+
+       .happn {
+        height: 20vh;
+
+       }
+
+       
+
+       .happn .spa{
+        height: auto;
+        bottom: -67%;
+        padding: 10px 0;
+       }
+
+       .happn .spa h1{
+        font-size: 1rem;
+       }
+
+       .happn .spa p{
+        font-size: 0.7rem;
+       }
+       
+       .also, .in {
+        height: 20vh;
+       }
+
+       .also .spa, .in .spa{
+        height: auto;
+        bottom: -67%;
+        padding: 10px 0;
+       }
+
+       .also .spa h1, .in .spa h1{
+        font-size: 1rem;
+       }
+
+       .also .spa p, .in .spa {
+        font-size: 0.7rem;
+       }
+
+       .dreams{
+        height: auto;
+        margin-bottom: 50vh;
+        margin-top: 10vh;
+       }
+
+       #hea{
+        font-size: 2rem;
+       }
+
+       
     }
     
     
